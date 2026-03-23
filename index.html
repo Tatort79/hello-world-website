@@ -1,1 +1,62 @@
-<\!DOCTYPE html><html><head><title>Hello World</title></head><body><h1>Hello World</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 640px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: #555;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .divider {
+      width: 48px;
+      height: 4px;
+      background-color: #4f46e5;
+      border-radius: 2px;
+      margin: 1.5rem auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, World!</h1>
+    <div class="divider"></div>
+    <p>Welcome to this website. This is a simple, clean landing page built with plain HTML and CSS.</p>
+  </div>
+</body>
+</html>
