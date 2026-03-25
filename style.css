@@ -43,3 +43,17 @@ p {
   border-radius: 2px;
   margin: 1.5rem auto;
 }
+
+.nav {
+  margin-top: 2rem;
+}
+
+.nav a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
